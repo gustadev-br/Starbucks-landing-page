@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%/;
+}
+
+header{
+    padding: 20px 0;
+    height: 200px;
+}
+
+.logo {
+    width: 50%;
+
+}
+
+.menu{
+    width: 40%;
+    text-align: right;
+    padding-top: 40px;
+    scale: 160%;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section .sobre{
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.extras{
+    position: absolute;
+    bottom: -300px;
+    right: -550px;
+    width: 1200px;
+    height: 1300px;
+    background-color: #017143;
+    border-radius: 50%;
+}
+
+.socialmedia{
+    position: absolute;
+    right: 550px;
+    top: 200px;
+}
+
+.socialmedia img{
+    display: block;
+    width: 20px;
+    margin: 20px 20px;
+    filter: invert(1);
+}
+
+.textosobre{
+    margin-top: 175px;
+    margin-left: 150px;
+}
+
+.textosobre h1{
+    font-size: 50px;
+}
+
+.textosobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.textosobre button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sabores{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    bottom: 80px;
+    transform: translateX(-50%);
+}
+
+.sabores li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sabores li:hover{
+    transform: translateY(-50px);
+}
+
+.sabores li img{
+    max-width: 300px;
+}
